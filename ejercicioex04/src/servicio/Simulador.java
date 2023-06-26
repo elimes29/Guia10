@@ -87,6 +87,9 @@ public class Simulador {
         nombre.add("Paulina");
         nombre.add("Paolo");
         nombre.add("Paola");
+        nombre.add("Elimes");
+        nombre.add("Gael");
+        nombre.add("Dionelys");
 
         //Creando apellidos comunes
         apellido.add("Rodríguez");
@@ -269,12 +272,12 @@ public class Simulador {
         Collections.sort(alumnoList, Comparadores.ordenaXVotos);
         int cont = 0;
         System.out.println("");
-        System.out.println("Lista de votos");
+        System.out.println("**Lista de votos**");
         for (Alumno alumno1 : alumnoList) {
             System.out.println(alumno1.nombreCompleto + " votos: " + alumno1.numVotos);
         }
         System.out.println("");
-        System.out.println("Facilitadores");
+        System.out.println("**Facilitadores**");
         for (Alumno alumno : alumnoList) {
             //           
             cont++;
